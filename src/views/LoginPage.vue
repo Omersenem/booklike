@@ -18,6 +18,7 @@ import CryptoJS from "crypto-js";
 export default {
   data(){
     return{
+
       userData:{
         username:null,
         password: null
@@ -26,8 +27,16 @@ export default {
   },
   methods:{
     onSubmit(){
-      const password =CryptoJS.AES.encrypt(this.userData.password, this.$store.getters._saltKey).toString()
+      const password =CryptoJS.HmacSHA1(this.userData.password, this.$store.getters._saltKey).toString()
+      console.log(this.$store.getters._saltKey)
       this.$appAxios.get(`/users?username=${this.userData.username}&password=${password}`).then(login_response =>{
+        if(login_response?.data?.length >0){
+          this.$store.commit("setUser", login_response?.data[0]);
+          this.$router.push({ name: "HomePage" });
+        }else{
+          alert("Böyle bir kullanıcı bulunamadı!!!")
+        }
+
         console.log("login_response", login_response)
       }).catch(e => console.log(e))
 

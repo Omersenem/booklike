@@ -1,64 +1,10 @@
 {
   "users": [
     {
-      "username": "asd",
-      "fullname": "asd",
-      "password": "U2FsdGVkX1/uaFgAIK2LrHUOoelY/pxXif63b7LfIrg=",
-      "id": 1
-    },
-    {
       "username": "omersenem123",
       "fullname": "Ömer Senem",
-      "password": "U2FsdGVkX1+TdfYCM7UxSWY65C4h3gJJbe3OmU3kpIA=",
-      "id": 2
-    },
-    {
-      "username": "asd",
-      "fullname": "ömert",
-      "password": "U2FsdGVkX19yyo8fJ6jrNeHt2HQqTdQYAqvKA6h8TbM=",
-      "id": 3
-    },
-    {
-      "username": "asd",
-      "fullname": "asd",
-      "password": "U2FsdGVkX18AX2un5eI6fPrxACPW4cbO8IZHpbsZw5c=",
-      "id": 4
-    },
-    {
-      "username": "asd",
-      "fullname": "asd",
-      "password": "U2FsdGVkX1/iehmGqDdhxk61rjB0Dxoz8uMxbwCR73A=",
-      "id": 5
-    },
-    {
-      "username": "asd",
-      "fullname": "asd",
-      "password": "U2FsdGVkX19A9pKteCCEKoGEBqpf/4xSr2QfpdlZDHA=",
-      "id": 6
-    },
-    {
-      "username": "asd",
-      "fullname": "asd",
-      "password": "U2FsdGVkX1++qeLFo06R7bapBxjUkORxyvSl84Bzoc4=",
-      "id": 7
-    },
-    {
-      "username": "asd",
-      "fullname": "asd",
-      "password": "U2FsdGVkX1+cBZJkFEGtllSBAbT87yj+NhRhCgn8hxg=",
-      "id": 8
-    },
-    {
-      "username": "asd",
-      "fullname": "asd1",
-      "password": "U2FsdGVkX19LK04TCHtPjCwb/ztNtc4PYRB4YvvA+/g=",
-      "id": 9
-    },
-    {
-      "username": "asd",
-      "fullname": "asd",
-      "password": "U2FsdGVkX19ZvnxPtNSxo+0FAt5KGqNriBz5b77LycY=",
-      "id": 10
+      "password": "437a21fd82d3c6a2dee4089f665b110c4a10872e",
+      "id": 1
     }
   ],
   "bookmarks": [],
