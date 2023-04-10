@@ -28,8 +28,8 @@ export default {
   },
   methods:{
     onSave(){
-      const key='booklike123!45?56'
-      const password =CryptoJS.AES.encrypt(this.userData.password, key).toString()
+
+      const password =CryptoJS.AES.encrypt(this.userData.password, this.$store.getters._saltKey).toString()
       console.log("başladı")
       this.$appAxios.post("/users", { ...this.userData, password }).then(registered_user_response => {
         console.log("registered_user_response :>> ", registered_user_response);
