@@ -1,4 +1,15 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import router from "@/router";
+import '@/assets/style.css'
+import appHeader from '@/components/Shered/appHeader.vue'
+import AppBookmarkList from "@/components/Shered/appBookmarkList/index.vue";
 
-createApp(App).mount('#app')
+import {appAxios} from "@/utils/appAxios";
+const app =createApp(App)
+app.component('appHeader', appHeader)
+app.component('AppBookmarkList', AppBookmarkList)
+
+app.use(router);
+app.config.globalProperties.$appAxios =appAxios;
+    app.mount('#app')

@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "username": "asd",
+      "fullname": "asd",
+      "password": "U2FsdGVkX1/uaFgAIK2LrHUOoelY/pxXif63b7LfIrg=",
+      "id": 1
+    },
+    {
+      "username": "omersenem123",
+      "fullname": "Ömer Senem",
+      "password": "U2FsdGVkX1+TdfYCM7UxSWY65C4h3gJJbe3OmU3kpIA=",
+      "id": 2
+    },
+    {
+      "username": "asd",
+      "fullname": "ömert",
+      "password": "U2FsdGVkX19yyo8fJ6jrNeHt2HQqTdQYAqvKA6h8TbM=",
+      "id": 3
+    }
+  ],
+  "bookmarks": [],
+  "categories": []
+}
