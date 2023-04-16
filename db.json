@@ -60,6 +60,10 @@
     {
       "name": "Sosyal Yaşam",
       "id": 6
+    },
+    {
+      "name": "Aktivite",
+      "id": 7
     }
   ]
 }
